@@ -5,9 +5,11 @@
 
 # 前提
 2020年1月22日 GPU miniキャンプ with reedbush用
-[このプロジェクト](https://github.com/keisukefukuda/chainer-on-reedbush)をベースにしています。先に必ず確認して下さい。
 
 reedbushのchainer/7.0.0モジュールをロードして、chainermnでtrain_mnist.pyを実行する為の手順を纏めています。
+
+
+[このプロジェクト](https://github.com/keisukefukuda/chainer-on-reedbush)をベースにしています。先に必ず確認して下さい。
 
 
 ## 環境設定
