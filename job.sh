@@ -5,14 +5,15 @@
 #PBS -l walltime=00:15:00
 
 
-MYDIR=/lustre/pz0415/z30415
+MYDIR=/lustre/${GROUP}/${USER}
+WORKDIR=$MYDIR/chainer-on-reedbush
 
 . /etc/profile.d/modules.sh
 module load chainer/7.0.0
 module load openmpi/gdr/2.1.2/gnu
 export PYTHONUSERBASE=$MYDIR/.python
 
-cd $MYDIR/chainer-on-reedbush
+cd $WORKDIR
 
 # デバッグ出力： Chainer と CuPy のバージョンを表示
 python -c "import chainer; print(chainer.print_runtime_info())"
