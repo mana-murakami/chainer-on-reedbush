@@ -2,7 +2,7 @@
 
 module load chainer/7.0.0
 
-MYDIR=/lustre/pz0415/z30415
+MYDIR=/lustre/${GROUP}/${USER}
 export HOME=$MYDIR
 export PYTHONUSERBASE=$MYDIR/.python
 
